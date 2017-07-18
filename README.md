@@ -5,7 +5,7 @@ A modern, light, css grid layout. Less than 200 lines of code before minificatio
 Shell uses css-grid to make your website's grid layouts easy to read and easy to make. No longer will you need float things, use flex boxes, or use endless amount of nested divs. What you write is what you get.
 
 # Quick Setup
-- Paste the CDN in your head tag. (I'm broke and can't afford services like MaxCDN)
+- Paste the CDN in your head tag. (I'm broke and can't afford services like MaxCDN, so this will probably be slow)
 ```html
 <link rel="stylesheet" href="https://sniddl.com/cdn/grid.min.css">
 ```
