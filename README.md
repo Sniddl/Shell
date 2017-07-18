@@ -64,6 +64,12 @@ The following example will start at column 4 and will end at column 6. Then when
   <div class="mydiv s4 e6 small">...</div>
 </div>
 ```
+Then if you want to remove the gap between the items, add the `no-gap` class on the grid.
+```html
+<div class="grid no-gap">
+  <div class="mydiv s4 e6 small">...</div>
+</div>
+```
 
 Here is an example on jsfiddle
 https://jsfiddle.net/zebthewizard/dnmvuszy/3/
