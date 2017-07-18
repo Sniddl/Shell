@@ -4,6 +4,12 @@ A modern, light, css grid layout. Less than 200 lines of code before minificatio
 ### About
 Shell uses css-grid to make your website's grid layouts easy to read and easy to make. No longer will you need float things, use flex boxes, or use endless amount of nested divs. What you write is what you get.
 
+# Quick Setup
+- Paste the CDN in your head tag. (I'm broke and can't afford services like MaxCDN)
+```html
+<link rel="stylesheet" href="https://sniddl.com/cdn/grid.min.css">
+```
+
 # Setup
 - Download the files you want.
 - Add one of the files to your css folder.
@@ -43,6 +49,7 @@ The column numbers range from 1-12.
 
 There you go. Easy as 123. 
 Now if want to add responsiveness, just tell it where you want it to become full width.
+
 ||classes|pixel size|
 |small|small, sm|576px|
 |medium|medium, md|768px|
