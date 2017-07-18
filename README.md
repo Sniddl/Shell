@@ -1,5 +1,5 @@
 # Shell
-A modern, light, css grid layout. Less than 200 lines of code!!
+A modern, light, css grid layout. Less than 200 lines of code before minification!!
 
 ### About
 Shell uses css-grid to make your website's grid layouts easy to read and easy to make. No longer will you need float things, use flex boxes, or use endless amount of nested divs. What you write is what you get.
@@ -14,9 +14,10 @@ Shell uses css-grid to make your website's grid layouts easy to read and easy to
 - Get coding fast!
 
 # Syntax
-Define the grid. You can have multiple grids.
+Define the grid. You can have multiple grids. Or add rows inside your grid.
 ```html
 <div class="grid">
+  <div class="row"></div>
 </div>
 ```
 
@@ -42,9 +43,18 @@ The column numbers range from 1-12.
 
 There you go. Easy as 123. 
 Now if want to add responsiveness, just tell it where you want it to become full width.
+||classes|pixel size|
+|small|small, sm|576px|
+|medium|medium, md|768px|
+|large|large, lg|992px|
+|extra large|xlarge, xl| 1200px|
+
 The following example will start at column 4 and will end at column 6. Then when the website is the size of a phone, it will take up the full page.
 ```html
 <div class="grid">
   <div class="mydiv s4 e6 small">...</div>
 </div>
 ```
+
+Here is an example on jsfiddle
+https://jsfiddle.net/zebthewizard/dnmvuszy/2/
