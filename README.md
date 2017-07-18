@@ -38,6 +38,7 @@ Make it go where you want it to go. Just add 2 classes, the starting point and t
 The column numbers range from 1-12.
 
 ||column|class|definition|
+|---|---|---|---|
 |start|1|s1|start the element at the first column
 |end|4|e4|end the element at the fourth column
 
@@ -51,6 +52,7 @@ There you go. Easy as 123.
 Now if want to add responsiveness, just tell it where you want it to become full width.
 
 ||classes|pixel size|
+|---|---|---|
 |small|small, sm|576px|
 |medium|medium, md|768px|
 |large|large, lg|992px|
