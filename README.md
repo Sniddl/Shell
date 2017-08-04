@@ -7,7 +7,7 @@ Shell uses css-grid to make your website's grid layouts easy to read and easy to
 # Quick Setup
 - Paste the CDN in your head tag. (I'm broke and can't afford services like MaxCDN, so this will probably be slow)
 ```html
-<link rel="stylesheet" href="https://sniddl.com/cdn/grid.min.css">
+<link rel="stylesheet" href="https://cdn.sniddl.com/grid.min.css">
 ```
 
 # Setup
